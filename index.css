@@ -48,7 +48,7 @@ header table {
 }
 #logo {
     width:20%;
-    font-family:'agustina';
+    font-family:'Agustina' !important;
 }
 #navigation {
     width:80%;
