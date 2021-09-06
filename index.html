@@ -29,7 +29,12 @@
 	<script>
 document.addEventListener('contextmenu', event => event.preventDefault());
 	</script>
-	
+	<script>
+function getIP(json) {
+  alert( + json.ip);
+}
+</script>
+<script src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
 
 <!-- HTML Meta Tags -->
 	<title>Christelle Haddad | Web Developer & Designer</title>
