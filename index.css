@@ -96,7 +96,7 @@ header table {
     transition:0.4s ease-in-out;
 }
 #navigation a:hover{
-    border-bottom:2px solid rgb(255, 255, 255);
+    border-bottom:2px solid #002a5c;
 }
 #top_part {
     width:100%;
@@ -130,10 +130,8 @@ header table {
     color:#002a5c;
     font-size:23px;
     padding:12px 17px;
-    border-radius:50%;
     background:transparent;
     transition:0.4s ease-in-out;
-    font-weight:bold;
     margin:0px 8px;
 }
 .social:hover { 
