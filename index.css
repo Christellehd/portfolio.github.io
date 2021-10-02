@@ -121,7 +121,6 @@ header table {
 #about table {
     width:70%;
     margin-top:4vh;
-    margin-bottom:6vh;
 }
 #about table tr td {
     width:20% !important;
@@ -335,6 +334,7 @@ button:focus {
     #about table {
         width:100%;
         margin-top:6vh;
+            margin-bottom:6vh;
     }
     #about table tr td {
         text-align:center;
@@ -349,10 +349,8 @@ color:#fff;
     
     }
     .btn_one:hover {
-        box-shadow:0px 10px 40px rgba(0,42,92, 0.8);
         cursor:pointer;
-color:#fff;
- background:#002a5c;
+color:#002a5c;
     }
     #contact table tr td {
         width:100%;
