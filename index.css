@@ -134,7 +134,9 @@ header table {
 }
 .social:hover { 
     cursor: pointer;
-    color:#002a5c;
+    /* background: #002a5c; */
+    /* box-shadow: 0px 10px 30px rgba(0,42,92,0.8); */
+}
 }
 .btn_one {
     font-size:18px;
@@ -366,6 +368,9 @@ color:#fff;
     }
     #bio h1 {
         width:25%;
+    }
+    #bio p {
+        width:100%;
     }
     #contact h1 {
         width:33%;
