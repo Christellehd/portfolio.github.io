@@ -130,7 +130,6 @@ header table {
     color:#002a5c;
      font-size:23px;
     padding:12px 17px;
-    border-radius:50%;
     background:transparent;
     transition:0.4s ease-in-out;
     font-weight:bold;
@@ -139,7 +138,6 @@ header table {
 .social:hover { 
     cursor: pointer;
     color:#002a5c;
-  box-shadow: 0px 10px 30px rgba(0,42,92,0.8); 
 }
 .btn_one {
     font-size: 18px;
@@ -302,7 +300,7 @@ button:focus {
     background: rgba(0, 0, 0,0.8); 
 }
 
-@media (max-width: 1000px){
+@media only screen and (max-width: 1000px){
     #photos {
     columns:1;
     column-gap:0%;
@@ -334,7 +332,7 @@ button:focus {
     #about table {
         width:100%;
         margin-top:6vh;
-            margin-bottom:6vh;
+        margin-bottom:6vh;
     }
     #about table tr td {
         text-align:center;
