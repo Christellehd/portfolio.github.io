@@ -31,7 +31,22 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 	<style>
         @import url('https://fonts.cdnfonts.com/css/agustina');
 		
-	
+	.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #012b5d, 0 0 40px #012b5d, 0 0 50px #012b5d, 0 0 60px #012b5d, 0 0 70px #012b5d;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #02428f, 0 0 40px #02428f, 0 0 50px #02428f, 0 0 60px #02428f, 0 0 70px #02428f, 0 0 80px #02428f;
+  }
+}
 			
 	</style>
 
@@ -125,9 +140,9 @@ document.addEventListener('contextmenu', event => event.preventDefault());
         <p style="font-size: 1.67em;">
             I am a Lebanese Canadian design-minded web designer & developer. I build beautiful interfaces & experiences. 
         </p> -->
-	       <p style="font-size: 2em;text-align:center;">
-            I build beautiful interfaces & experiences. 
-        </p> 
+	      
+	    <span class="glow" style="font-size: 3em;text-align:center;">I build beautiful interfaces & experiences</span>
+
         <br>
  <marquee style="font-size: 2.8em;" behavior="scroll" direction="left" scrollamount="10" id="marquee2">
  Web Management  -  UI/UX Design  -  Webflow  -  Wordpress  -  Shopify  -  Joomla  -  Google Analytics  -  Search Engine Optimization
