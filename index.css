@@ -106,7 +106,7 @@ header table {
     width:50%;
 }
 #about {
-    width:84% !important;
+    width:96% !important;
     height:100vh;
     display:flex;
     flex-direction:column;
