@@ -23,7 +23,7 @@ body {
     animation: rotate 0.56s infinite linear;
     width:50px;
     height:50px;
-    border:12px solid #002a5c;
+    border:12px solid #1a1b1f;
     border-bottom:12px solid #fff;
     border-radius:50%;
     margin:0;
@@ -70,7 +70,7 @@ header table {
     transition:0.4s ease-in-out;
 }
 #magnify h1:hover{
-    color:#002a5c;
+    color:#1a1b1f;
     cursor:pointer;
 }
 #img_here {
@@ -96,7 +96,7 @@ header table {
     transition:0.4s ease-in-out;
 }
 #navigation a:hover{
-    border-bottom:2px solid #002a5c;
+    border-bottom:2px solid #1a1b1f;
 }
 #top_part {
     width:100%;
@@ -127,7 +127,7 @@ header table {
     text-align:left;
 }
 .social {
-    color:#002a5c;
+    color:#1a1b1f;
      font-size:23px;
     padding:12px 17px;
     transition:0.4s ease-in-out;
@@ -136,14 +136,14 @@ header table {
 }
 .social:hover { 
     cursor: pointer;
-    color:#002a5c;
+    color:#1a1b1f;
 }
 .btn_one {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
-    color:#002a5c;
+    color:#1a1b1f;
     background: #fff;
-    border: 3px solid #002a5c;
+    border: 3px solid #1a1b1f;
     padding: 8px 40px;
     width: 35%;
     border-radius: 80px;
@@ -155,7 +155,7 @@ header table {
     box-shadow:0px 10px 30px rgba(0,42,92, 0.8);
     cursor:pointer;
     color:#fff;
-    background:#002a5c;
+    background:#1a1b1f;
 }
 #rightImage {
     width:100%;
@@ -171,7 +171,7 @@ header table {
 }
 #work h1 {
     padding:5px 0px;
-    border-bottom:4px solid #002a5c;
+    border-bottom:4px solid #1a1b1f;
     width:6%;
 }
 #photos {
@@ -199,7 +199,7 @@ header table {
 }
 #bio h1 {
     padding:5px 0px;
-    border-bottom:4px solid #002a5c;
+    border-bottom:4px solid #1a1b1f;
     width:8%;
 }
 #contact {
@@ -208,7 +208,7 @@ header table {
 }
 #contact h1 {
     padding:5px 0px;
-    border-bottom:4px solid #002a5c;
+    border-bottom:4px solid #1a1b1f;
     width:10%;
 }
 #contact table {
@@ -277,7 +277,7 @@ header table {
     font-weight:bold;
 }
 #footer a {
-    color:#002a5c;
+    color:#1a1b1f;
     text-decoration:none;
 }
 ::placeholder {
@@ -342,13 +342,13 @@ button:focus {
     width:60%;
     margin:4vh auto;
     box-shadow:0px 10px 20px rgba(0,42,92, 0.8);
-    background:#002a5c;
+    background:#1a1b1f;
 color:#fff;
     
     }
     .btn_one:hover {
         cursor:pointer;
-color:#002a5c;
+color:#1a1b1f;
     }
     #contact table tr td {
         width:100%;
