@@ -3,19 +3,21 @@
 <head>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WEHBBKGE8L"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 <script> configObj = {"buttonD":"M11.384 13.333h9.232c.638 0 .958.68.505 1.079l-4.613 4.07c-.28.246-.736.246-1.016 0l-4.613-4.07c-.453-.399-.133-1.079.505-1.079z","buttonT":"translate(-1028 -172) translate(832 140) translate(32 32) translate(164) matrix(1 0 0 -1 0 32)","shadowSize":"0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)","roundnessSize":"8px","buttonDToBottom":"32px","buttonDToRight":"32px","selectedBackgroundColor":"#000000","selectedIconColor":"#fafafa","buttonWidth":"40px","buttonHeight":"40px","svgWidth":"32px","svgHeight":"32px"};function createButton(obj, pageSimulator) {    const body = document.querySelector("body");    backToTopButton = document.createElement("span");    backToTopButton.classList.add("softr-back-to-top-button");    backToTopButton.id = "softr-back-to-top-button";    pageSimulator      ? pageSimulator.appendChild(backToTopButton)      : body.appendChild(backToTopButton);    backToTopButton.style.width = obj.buttonWidth;    backToTopButton.style.height = obj.buttonHeight;    backToTopButton.style.marginRight = obj.buttonDToRight;    backToTopButton.style.marginBottom = obj.buttonDToBottom;    backToTopButton.style.borderRadius = obj.roundnessSize;    backToTopButton.style.boxShadow = obj.shadowSize;    backToTopButton.style.color = obj.selectedBackgroundColor;    backToTopButton.style.backgroundColor = obj.selectedBackgroundColor;    pageSimulator ? backToTopButton.style.position = "absolute" : backToTopButton.style.position = "fixed";    backToTopButton.style.outline = "none";    backToTopButton.style.bottom = "0px";    backToTopButton.style.right = "0px";    backToTopButton.style.cursor = "pointer";    backToTopButton.style.textAlign = "center";    backToTopButton.style.border = "solid 2px currentColor";    backToTopButton.innerHTML =      '<svg class="back-to-top-button-svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" > <g fill="none" fill-rule="evenodd"> <path d="M0 0H32V32H0z" transform="translate(-1028 -172) translate(832 140) translate(32 32) translate(164) matrix(1 0 0 -1 0 32)" /> <path class="back-to-top-button-img" fill-rule="nonzero" d="M11.384 13.333h9.232c.638 0 .958.68.505 1.079l-4.613 4.07c-.28.246-.736.246-1.016 0l-4.613-4.07c-.453-.399-.133-1.079.505-1.079z" transform="translate(-1028 -172) translate(832 140) translate(32 32) translate(164) matrix(1 0 0 -1 0 32)" /> </g> </svg>';    backToTopButtonSvg = document.querySelector(".back-to-top-button-svg");    backToTopButtonSvg.style.verticalAlign = "middle";    backToTopButtonSvg.style.margin = "auto";    backToTopButtonSvg.style.justifyContent = "center";    backToTopButtonSvg.style.width = obj.svgWidth;    backToTopButtonSvg.style.height = obj.svgHeight;    backToTopButton.appendChild(backToTopButtonSvg);    backToTopButtonImg = document.querySelector(".back-to-top-button-img");    backToTopButtonImg.style.fill = obj.selectedIconColor;    backToTopButtonSvg.appendChild(backToTopButtonImg);    backToTopButtonImg.setAttribute("d", obj.buttonD);    backToTopButtonImg.setAttribute("transform", obj.buttonT);        if(!pageSimulator) {      backToTopButton.style.display = "none";      window.onscroll = function() {        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {          backToTopButton.style.display = "block";        } else {          backToTopButton.style.display = "none";        }      };        backToTopButton.onclick = function() {        document.body.scrollTop = 0;        document.documentElement.scrollTop = 0;      };    }  };document.addEventListener("DOMContentLoaded", function() { createButton(configObj, null); });</script>
 
-	<script>
+<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-WEHBBKGE8L');
 </script>
-	<script>
+	<!--<script>
 	// for disabling right click use this as it is 
 document.addEventListener('contextmenu', event => event.preventDefault());
-	</script> 
+	</script> -->
 	
 	
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -32,10 +34,7 @@ document.addEventListener('contextmenu', event => event.preventDefault());
  
 	<style>
         @import url('https://fonts.cdnfonts.com/css/agustina');
-	
-		#rrightImage:hover {
-			background: url("emojimeta.png") repeat;
-		}
+
 	</style>
 
 <!-- HTML Meta Tags -->
@@ -57,8 +56,6 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 <meta property="og:description" content="Christelle is a design-minded web developer focused on building beautiful user-centered interfaces & experiences. Let's elevate your business! 🚀 ">
 <meta property="og:image" content="/emojimeta.png">
 
-
-
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
 <meta property="twitter:domain" content="christellehddd.com">
@@ -66,22 +63,16 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 <meta name="twitter:title" content="Christelle Haddad - Web Developer & Designer">
 <meta name="twitter:description" content="Christelle is a design-minded web developer focused on building beautiful user-centered interfaces & experiences. Let's elevate your business! 🚀 ">
 <meta name="twitter:image" content="/images/emojimeta.jpg">
-	
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 	<style>
         @import url('http://fonts.cdnfonts.com/css/agustina');
-	
 	</style>
-
 </head>
-
-	
 <body>
-		
-  
+	<div id="invertedcursor"></div>
     <div id="loading">
         <div id="spinner"></div>
     </div>
@@ -89,37 +80,28 @@ document.addEventListener('contextmenu', event => event.preventDefault());
         <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
         <div id="img_here"></div>
     </div>
-    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+    <header id="header" style="background: #18161b;" class="animated slideInDown" style="animation-delay:1.8s;">
         <table>
             <tr>
-                <td id="logo" style="font-family: 'Agustina';color:#1a1b1f;"><span><</span>christellehaddad<span>/></span></td>
-                <td id="navigation" style="color:#171717;">
+                <td id="logo" style="font-family: 'Agustina';color:#dfd2c3;"><span><</span>christellehaddad<span>/></span></td>
+                <td id="navigation" style="color:#dfd2c3;">
 			    
                     <a href="#work">work</a>
 			<a href="#bio">about</a>
-                    <a href="#contact">contact</a>
                 </td>
             </tr>
         </table>
     </header>
-    <table id="top_part">
+    <table id="top_part" style="background-color: #171717;">
         <tr>
             <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
-                <h2 style="margin-top:120px;"><br>Hi there👋 I am Christelle, a Web Developer & Designer.</h2><h1>
+                <h2 style="color:#dfd2c3;">Hi there👋 I am Christelle, a Web Developer & Designer.</h2><h1>
 		    <span style="-webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-				 -webkit-text-stroke: 1px #000;">I build beautiful <i>user-centered</i> experiences.</span></h1>
-                <a href="#contact"><button class="btn_one" >Contact</button></a><br>
-                <table>
-                    <tr>
-                        <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.linkedin.com/in/christellehaddad/"><i class="fab fa-linkedin"></i></a></td>
-                        <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://behance.net/christellehddd"><i class="fab fa-behance"></i></a></td>
-<td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://www.facebook.com/christelle.haddad16/"><i class="fab fa-facebook"></i></a></td>
-                  <!--      <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://www.instagram.com/crystelh/"><i class="fab fa-instagram"></i></a></td> -->
-                    </tr>
-                </table>
+				 -webkit-text-stroke: 1px #dfd2c3;">I build beautiful <i>user-centered</i> experiences.</span></h1>
+                <a href="#contact"> <button class="pulse-grow-on-hover" >Contact</button></a><br>
+              
             </td>
-		<td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
    </td>
         </tr>
     </table>
@@ -139,64 +121,44 @@ document.addEventListener('contextmenu', event => event.preventDefault());
     </div>
     <div id="bio">
      <h1>about</h1>
-        <p style="font-size: 1.67em;">
+        <p style="font-size: 1.67em;color:#dfd2c3;margin-top:2em;">
            My name is Christelle Haddad, I am a web developer with a passion for UX design and SEO. 
 		I build beautiful user-centered experiences for brands and people who want to excel. As a freelancer, 
-		I offer services to companies, start-ups and individuals all over the world.  <center><hr> <span style="font-size: 1.67em;"><i>Let's build someting great together! 🚀 </span>
-	   <br><br> <br> <marquee style="font-size: 1.67em;" behavior="scroll" direction="left" scrollamount="10" id="marquee2">
- Web Management  -  UI/UX Design  -  Webflow  -  Wordpress - Shopify  -  Google Analytics  -  Search Engine Optimization - Email Automation
-		</marquee></i><hr></center>
+		I offer services to companies, start-ups and individuals all over the world.  <center>
+	  <br><br> <span style="font-size: 1.67em;
+    color: #dfd2c3;">Let's build someting great together! 🚀</span>   <br><br> <hr><marquee style="font-size: 1.67em;
+    color: #dfd2c3;" behavior="scroll" direction="left" scrollamount="10" id="marquee2">
+ Web Management  -  UI/UX Design  -  Webflow  -  Wordpress - Shopify  - Joomla -  Google Analytics  -  Search Engine Optimization - Email Automation
+		</marquee><hr></center>
         </p>
 	      
 </div>
     <div id="contact">
             <table>
 		   
-             <!--   <tr>
-                    <td>
-                        <div id="inner_div">
-                            <table id="inner_table">
-				   
-				      
-                             <!--   <tr>
-                                    <td style="font-size: 1.3em;"><i class="fas fa-at"></i> &nbsp; hello@christellehddd.com</td>
-                                </tr>
-                                <tr>
-                                    <td style="font-size: 1.3em;"><i class="fas fa-map-marker-alt"></i>
-                                    <div id="address">
-                                       Beirut,
-                                       Lebanon
-                                    </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <a class="social" href="https://www.linkedin.com/in/christellehaddad/"><i class="fab fa-linkedin"></i></a>
-                                        <a class="social" href="https://behance.net/christellehddd/"><i class="fab fa-behance"></i></a>
-                                        <a class="social" href="https://www.facebook.com/christelle.haddad16/"><i class="fab fa-facebook"></i></a>
-                                    </td>
-                                </tr>
-				  <tr><td>
-		     
-                            </table>
-                        </div>
-                    </td>-->
+            
                   <tr>  <td>  
-                         <form action="https://getform.io/f/d3d21e64-c65c-48fc-9343-db873e609de0" method="POST">
+                         <form action="https://getform.io/f/d3d21e64-c65c-48fc-9343-db873e609de0" method="POST" style="
+        margin: auto;width:60%;">
                             <input type="text" placeholder="name" name="name" required>
                             <input type="email" placeholder="email" name="email" required><br>
                             <textarea placeholder="your message" required rows="5" name="message" required></textarea><br>
-                            <button class="btn_one" type="submit">send</button>
-                   
+                            <button class="pulse-grow-on-hover" style="color: #18161b;border-color:#18161b;" type="submit">send</button>
+                   </form>
 				 </td>
                 </tr>
-		 
-            </table>
-	   
+		</table>
+       
+	   <div style="margin: auto;
+    margin-top: 4em;text-align:center;"> <span class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.linkedin.com/in/christellehaddad/"><i class="fab fa-linkedin"></i></a></span>
+           <span class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://behance.net/christellehddd"><i class="fab fa-behance"></i></a></span>
+          <span class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://www.facebook.com/christelle.haddad16/"><i class="fab fa-facebook"></i></a></span></div><br>
 </div>
     </div>
+
     <div id="footer">
-     ©2022 <br><a href="http://christellehddd.com">❤️</a>
+
+     ©2022 christelle
     </div>
     <script src="index.js" type="text/javascript"></script>
 </body>
