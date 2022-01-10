@@ -191,6 +191,7 @@ header table {
     cursor: pointer;
     color:#18161b;
     text-decoration:none;
+    font-style: italic;
 }
 .btn_one {
     font-size: 18px;
