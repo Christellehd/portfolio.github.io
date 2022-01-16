@@ -151,8 +151,18 @@ header table {
 }
 #top_part {
     width:100%;
+    background-color: #171717;
 
 }
+.big_header{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px #dfd2c3;
+}
+.d_none{
+    display:none;
+}
+
 #top_part tr td{
     width:50%;
 }
@@ -166,9 +176,16 @@ header table {
     padding:0px 8%;
     margin-top: 10em;
 }
+.cta{
+    font-size: 1.67em;
+    color: #dfd2c3;
+}
 #about h1 {
     font-size:8em;
     word-wrap:break-word;
+}
+#about h2{
+    color:#dfd2c3;
 }
 #about table {
     width:70%;
@@ -220,6 +237,9 @@ header table {
     padding:5px 0px;
     width:6%;
 }
+#work h2{
+    text-transform:uppercase;
+}
 #photos {
     width:100%;
     columns:3;
@@ -250,11 +270,24 @@ header table {
     width:8%;
     color: #dfd2c3;
 }
+#bio h2{
+    text-transform:uppercase;
+}
+#bio p{
+    font-size: 1.67em;
+    color:#dfd2c3;
+    margin-top:2em;
+}
+
 #contact {
     width:100%;
     padding:6vh 4vw;
 
     background-color: #dfd2c3;
+}
+.marquee2{
+    font-size: 1.67em;
+    color: #dfd2c3;
 }
 #contact h1 {
     padding:5px 0px;
@@ -317,6 +350,11 @@ header table {
     top:-25px;
     left:30px;
 }
+.img_plus{
+    width:40% !important;
+    height:auto !important;
+    background:none;
+}
 #footer {
     width:100%;
     padding:10vh 0px;
@@ -324,9 +362,21 @@ header table {
     font-weight:300;
     background-color: #dfd2c3;
 }
+.social_footer{
+    margin: auto;
+    margin-top: 4em;
+    text-align:center;
+    text-transform: uppercase!important;
+    text-decoration:none;
+    font-size:2em;
+}
 #footer a {
     color:#dfd2c3;
     text-decoration:none;
+}
+form{
+    margin: auto;
+    width:80%;
 }
 ::placeholder {
     color:#000;
@@ -363,6 +413,8 @@ button:focus {
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
+    color: #18161b;
+    border-color:#18161b;
 }
 
 
