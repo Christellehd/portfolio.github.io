@@ -342,6 +342,9 @@ header table {
     outline:none;
     border-bottom:2px solid #18161b;
 }
+#contact form {
+    width: 80%;
+}
 #contact form textarea:focus {
     outline:none;
     border-bottom:2px solid #18161b;
@@ -450,6 +453,10 @@ button:focus {
     font-size:3em;
     word-wrap:break-word;
 }
+    #about h2{
+        color:#dfd2c3;
+    }
+    
     #about table {
         width:100%;
         margin-top:6vh;
