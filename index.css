@@ -159,7 +159,7 @@ header table {
     -webkit-background-clip: text;
     -webkit-text-stroke: 1px #dfd2c3;
 }
-.d_none{
+.d-none{
     display:none;
 }
 
