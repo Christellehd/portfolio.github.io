@@ -272,6 +272,7 @@ header table {
 }
 #bio h2{
     text-transform:uppercase;
+        text-align: initial;
 }
 #bio p{
     font-size: 1.67em;
