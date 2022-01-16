@@ -114,9 +114,8 @@ document.addEventListener('contextmenu', event => event.preventDefault());
         <tr>
             <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
                 <h2 style="color:#dfd2c3;">Hi there👋 I am Christelle, a Web Developer & Designer.</h2>
-		    <h1><span style="-webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-				 -webkit-text-stroke: 1px #dfd2c3;">I build beautiful <i>user-centered</i> experiences.</span></h1>
+		   <h1 class="d-none">Freelance Web Developer & Designer | Christelle Haddad</h1>
+			   <h1 class="big_header" ><span>I build beautiful <i>user-centered</i> experiences.</span></h1>
                 <a href="#contact"> <button class="pulse-grow-on-hover" >Contact</button></a><br>
               
             </td>
@@ -126,26 +125,24 @@ document.addEventListener('contextmenu', event => event.preventDefault());
  <div id="work">
         <h2 style="text-transform:uppercase;">work</h2>
         <div id="photos">
-		 <a href="https://ptstrading.net/"><img onclick="magnify($(this).attr('src'))" src="images/project8.jpg" alt="project8" ></a>
-           <a href="https://www.behance.net/gallery/102435435/LMS"> <img onclick="magnify($(this).attr('src'))" src="images/projectlms-.png" alt="projectlms"></a>
-            <img onclick="magnify($(this).attr('src'))" src="images/projectux.png" alt="projectuxcanada">
-             <a href="https://www.levantlink.cy/"> <img onclick="magnify($(this).attr('src'))" src="images/project2.png" alt="project2"></a>
-           <a href="https://thesteakhouse.webflow.io/"> <img onclick="magnify($(this).attr('src'))"src="images/projectmeat.jpg?1321321" alt="projectwebflow"></a>
-  <a  href="https://www.behance.net/gallery/131154021/Movie-Tickets-Booking-App-UX-Case-Study"><img onclick="magnify($(this).attr('src'))" src="images/projectmovies.png" alt="Movie Tickets Booking App-UX Case Study"></a>
-            <img onclick="magnify($(this).attr('src'))"src="images/project6.png" alt="projectrealestate">
-          <img onclick="magnify($(this).attr('src'))" src="images/projectux-.png" alt="projectux2">
-      <a  href="https://behance.net/christellehddd"><img onclick="magnify($(this).attr('src'))" src="images/plus.png" style="width:40% !important;height:auto !important;background:none;" alt="plus" ></a>
+		 <a href="https://ptstrading.net/"><img onclick="magnify($(this).attr('src'))" src="images/project8.jpg" alt="Wordpress PTSTrading Website" ></a>
+           <a href="https://www.behance.net/gallery/102435435/LMS"> <img onclick="magnify($(this).attr('src'))" src="images/projectlms-.png" alt="Web Development Library Management System Project"></a>
+            <img onclick="magnify($(this).attr('src'))" src="images/projectux.png" alt="UX Project Trail Canada">
+             <a href="https://www.levantlink.cy/"> <img onclick="magnify($(this).attr('src'))" src="images/project2.png" alt="Wordpress LevantLink Website Cyprus"></a>
+           <a href="https://thesteakhouse.webflow.io/"> <img onclick="magnify($(this).attr('src'))"src="images/projectmeat.jpg?1321321" alt="Webflow Project"></a>
+  <a  href="https://www.behance.net/gallery/131154021/Movie-Tickets-Booking-App-UX-Case-Study"><img onclick="magnify($(this).attr('src'))" src="images/projectmovies.png" alt="Movie Tickets Booking App-UX Project"></a>
+            <img onclick="magnify($(this).attr('src'))"src="images/project6.png" alt="Web Development Real Estate Project">
+          <img onclick="magnify($(this).attr('src'))" src="images/projectux-.png" alt="UX UI Project">
+      <a  href="https://behance.net/christellehddd"><img onclick="magnify($(this).attr('src'))" src="images/plus.png" class="img_plus" alt="plus button" ></a>
         </div>
     </div>
     <div id="bio">
      <h2 style="text-transform:uppercase;">about</h2>
-        <p style="font-size: 1.67em;color:#dfd2c3;margin-top:2em;">
+        <p>
            My name is Christelle Haddad, I am a web developer with a passion for UX design and SEO. 
 		I build beautiful user-centered experiences for brands and people who want to stand out. As a freelancer, 
 		I offer services to companies, start-ups and individuals all over the world.  <center>
-	  <br><br> <span style="font-size: 1.67em;
-    color: #dfd2c3;">Let's build someting great together! 🚀</span>   <br><br> <hr><marquee style="font-size: 1.67em;
-    color: #dfd2c3;" behavior="scroll" direction="left" scrollamount="10" id="marquee2">
+	  <br><br> <span class="cta">Let's build someting great together! 🚀</span>   <br><br> <hr><marquee behavior="scroll" direction="left" scrollamount="10" id="marquee2">
  Web Management  -  UI/UX Design  -  Webflow  -  Wordpress - Shopify  - Joomla -  Google Analytics  -  Search Engine Optimization - Email Automation
 		</marquee><hr></center>
         </p>
@@ -153,22 +150,19 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 </div>
     <div id="contact">
             <table>
-		   
-            
-                  <tr>  <td>  
-                         <form action="https://getform.io/f/d3d21e64-c65c-48fc-9343-db873e609de0" method="POST" style="
-        margin: auto;width:80%;">
+                  <tr>  
+			  <td>  
+                         <form action="https://getform.io/f/d3d21e64-c65c-48fc-9343-db873e609de0" method="POST" >
                             <input type="text" placeholder="name" name="name" required>
                             <input type="email" placeholder="email" name="email" required><br>
                             <textarea placeholder="message" required rows="5" name="message" required></textarea><br>
-                            <button class="pulse-grow-on-hover" style="color: #18161b;border-color:#18161b;" type="submit">send</button>
+                            <button class="pulse-grow-on-hover" style="" type="submit">send</button>
                    </form>
-				 </td>
+		 </td>
                 </tr>
 		</table>
        
-	   <div style="margin: auto;
-    margin-top: 4em;text-align:center;text-transform: uppercase!important;text-decoration:none;font-size:2em;"> <span class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.linkedin.com/in/christellehaddad/">linkedin</a></span>
+	   <div class="social_footer" style=""> <span class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.linkedin.com/in/christellehaddad/">linkedin</a></span>
            <span class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://behance.net/christellehddd">behance</a></span>
           <span class="animated zoomIn" style="animation-delay:2.6s;t"><a class="social" href="https://www.facebook.com/christelle.haddad16/">facebook</a></span></div><br>
 </div>
