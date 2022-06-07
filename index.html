@@ -69,11 +69,12 @@ document.addEventListener('contextmenu', event => event.preventDefault());
 		text-align:center;
 		}
 		.card-deck{
-			display:flex;
-			    font-size: 1.67em;
+display:flex;
+font-size: 1.67em;
     color: #dfd1c3;
     margin-top: 2em;
-			text-align:center;
+text-align:center;
+flex-direction: row;
 			
 		}
 		
@@ -94,6 +95,13 @@ document.addEventListener('contextmenu', event => event.preventDefault());
     background-color: #18161b;
 		}
 		
+		@media only screen and (max-width: 600px) {
+ 		 .card-deck{
+			display:flex;
+			flex-direction: column;
+			}
+		}
+
 	</style>
 
 <!-- HTML Meta Tags -->
