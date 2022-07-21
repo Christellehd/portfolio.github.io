@@ -10,6 +10,13 @@ body {
     cursor: none;
 }
 
+#rightImage {
+    width:100%;
+    height:95vh;
+    background:url(images/christelle.jpeg) center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
     #invertedcursor {
   position: absolute;
   width: 20px;
